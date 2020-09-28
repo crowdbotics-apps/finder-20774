@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     "location",
     "vehicle",
     "wallet",
+    "event",
 ]
 LOCAL_APPS = [
     "home",

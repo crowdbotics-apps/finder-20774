@@ -41,6 +41,8 @@ urlpatterns = [
     path("home/", include("home.urls")),
     path("api/v1/", include("wallet.api.v1.urls")),
     path("wallet/", include("wallet.urls")),
+    path("api/v1/", include("event.api.v1.urls")),
+    path("event/", include("event.urls")),
 ]
 
 admin.site.site_header = "finder"
